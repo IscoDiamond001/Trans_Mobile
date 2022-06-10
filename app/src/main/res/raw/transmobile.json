@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "name": "AFRICA TOUR TRANS",
+    "adresse": "Avenue de l'OUA, Sogoniko,Bamako-Mali",
+
+    "trajet": [
+      {
+        "name": "Bamako->Badiangara",
+        "heure": "",
+        "prix": 9000.00
+      },
+      {
+        "name": "Bamako->Sikasso",
+        "heure": "",
+        "prix": 5000.00
+      },
+      {
+        "name": "Bamako->Koutiala",
+        "heure": "",
+        "prix": 5000.00
+      },
+      {
+        "name": "Bamako->Segou",
+        "heure": "",
+        "prix": 3000.00
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Diarra Transport",
+    "adresse": "Bamako",
+
+    "trajet": [
+      {
+        "name": "Bamako Kayes",
+        "heure": "16:00",
+        "prix": 6000.00
+      },
+      {
+        "name": "Bamako Sikasso",
+        "heure": "06:00",
+        "prix": 5000.00
+      },
+      {
+        "name": "Bamako Koutiala",
+        "heure": "07:00",
+        "prix": 6000.00
+      },
+      {
+        "name": "Bamako Segou",
+        "heure": "08:00",
+        "prix": 3000.00
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sonef",
+    "adresse": "Bamako",
+
+    "trajet": [
+      {
+        "name": "Bamako Fana",
+        "heure": "05:30",
+        "prix": 2000.00
+      },
+      {
+        "name": "Bamako Konobougou",
+        "heure": "05:30",
+        "prix": 2500.00
+      },
+      {
+        "name": "Bamako Segou",
+        "heure": "05:30",
+        "prix": 3000.00
+      },
+      {
+        "name": "Bamako Sizana",
+        "heure": "05:30",
+        "prix": 3500.00
+      },
+      {
+        "name": "Bamako Bla",
+        "heure": "05:30",
+        "prix": 5000.00
+      },
+      {
+        "name": "Bamako Yangaso",
+        "heure": "05:30",
+        "prix": 6000.00
+      },
+      {
+        "name": "Bamako San",
+        "heure": "05:30",
+        "prix": 6000.00
+      },
+      {
+        "name": "Bamako Sibere",
+        "heure": "05:30",
+        "prix": 7000.00
+      },
+      {
+        "name": "Bamako Sevare",
+        "heure": "05:30",
+        "prix": 10000.00
+      },
+      {
+        "name": "Bamako Konna",
+        "heure": "05:30",
+        "prix": 11000.00
+      },
+      {
+        "name": "Bamako Douentza",
+        "heure": "05:30",
+        "prix": 15000.00
+      },
+      {
+        "name": "Bamako Hombori",
+        "heure": "05:30",
+        "prix": 20000.00
+      },
+      {
+        "name": "Bamako Gossi",
+        "heure": "05:30",
+        "prix": 22500.00
+      },
+      {
+        "name": "Bamako Gao",
+        "heure": "05:30",
+        "prix": 25000.00
+      },
+      {
+        "name": "Bamako Ansongo",
+        "heure": "05:30",
+        "prix": 27000.00
+      },
+      {
+        "name": "Bamako Kidal",
+        "heure": "05:30",
+        "prix": 35000.00
+      },
+      {
+        "name": "Bamako Kolokani",
+        "heure": "08:00",
+        "prix": 4000.00
+      },
+      {
+        "name": "Bamako Diema",
+        "heure": "08:00",
+        "prix": 5000.00
+      },
+      {
+        "name": "Bamako Fassou",
+        "heure": "08:00",
+        "prix": 6500.00
+      },
+      {
+        "name": "Bamako Nioro",
+        "heure": "08:00",
+        "prix": 7500.00
+      },
+      {
+        "name": "Bamako Bougouni",
+        "heure": "11:00",
+        "prix": 2000.00
+      },
+      {
+        "name": "Bamako Niena",
+        "heure": "11:00",
+        "prix": 4000.00
+      }
+    ]
+  }
+
+]

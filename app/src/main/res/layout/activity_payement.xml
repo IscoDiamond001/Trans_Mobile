@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_300"
+    tools:context=".PayementActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tb">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/prenom"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginStart="5dp"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/prenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prenom"
+                android:text="@string/nom"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginStart="5dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nom"
+                android:text="@string/genre"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginStart="5dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/genre"
+                android:text="@string/email"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginStart="5dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/email"
+                android:text="@string/numtel"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginStart="5dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/num"
+                android:text="@string/ville"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginStart="5dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/ville"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ville"
+                android:text="@string/quartier"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginStart="5dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/quartier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/quartier"
+                android:text="@string/place_reserv"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/place"
+                android:text="@string/total"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/somme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="80dp"
+        android:layout_height="139dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_baseline_check_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/tb"
+        tools:ignore="MissingConstraints,MissingPrefix" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rsr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check"
+        android:text="@string/mess_1"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_marginStart="5dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rsr"
+        android:text="@string/mess_2"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_marginStart="5dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
